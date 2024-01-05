@@ -1,0 +1,13 @@
+.each-image-container {
+  margin: 10px;
+}
+.each-image-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+}
+.each-image-thumbnail {
+  width: 120px;
+  height: 120px;
+}

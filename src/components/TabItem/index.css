@@ -1,0 +1,25 @@
+.each-tab-item {
+  margin-left: 10px;
+}
+@media screen and (min-width: 567px) {
+  .each-tab-item {
+    margin-left: 20px;
+  }
+}
+.each-tab-button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: 0px;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media screen and (min-width: 567px) {
+  .each-tab-button {
+    font-size: 24px;
+  }
+}
+.selected-tab {
+  border-bottom: 1px solid #fec653;
+  color: #fec653;
+}

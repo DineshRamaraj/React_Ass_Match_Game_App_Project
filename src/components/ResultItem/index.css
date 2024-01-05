@@ -1,0 +1,105 @@
+.result-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 50px;
+  min-height: 400px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 567px) {
+  .result-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 55%;
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 30%;
+  }
+}
+
+.result-trophy {
+  width: 200px;
+}
+
+@media screen and (min-width: 567px) {
+  .result-trophy {
+    width: 200px;
+  }
+}
+
+.result-score-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 607px) {
+  .result-score-heading {
+    font-size: 24px;
+  }
+}
+.result-score {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media screen and (min-width: 607px) {
+  .result-score {
+    font-size: 34px;
+  }
+}
+.result-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 180px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #cf60c8;
+  cursor: pointer;
+}
+@media screen and (min-width: 607px) {
+  .result-button {
+    width: 220px;
+    height: 40px;
+  }
+}
+.result-reset {
+  width: 24px;
+  height: 24px;
+}
+.result-play-again {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 567px) {
+  .result-play-again {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .result-play-again {
+    font-size: 20px;
+  }
+}

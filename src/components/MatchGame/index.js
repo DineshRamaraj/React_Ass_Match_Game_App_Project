@@ -114,7 +114,7 @@ class MatchGame extends Component {
               <div className="match-container">
                 <img
                   src={imageUrl}
-                  alt={id}
+                  alt="match"
                   className="main-match-game-image"
                 />
               </div>

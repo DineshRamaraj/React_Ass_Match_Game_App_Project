@@ -12,7 +12,6 @@ class MatchGame extends Component {
     score: 0,
     timeCount: 60,
     isPass: true,
-    randomNo: '',
   }
 
   componentDidMount() {
@@ -23,7 +22,6 @@ class MatchGame extends Component {
     this.setState({
       selectedItemId: tabsList[0].tabId,
       imageItem: imagesList[0],
-      randomNo: 0,
     })
   }
 
@@ -48,7 +46,7 @@ class MatchGame extends Component {
   randomImage = () => {
     const {imagesList} = this.props
 
-    const randomNumber = Math.floor(Math.random() * imagesList.length - 1)
+    const randomNumber = Math.floor(Math.random() * imagesList.length)
 
     const randomImageItem = imagesList[randomNumber]
 
